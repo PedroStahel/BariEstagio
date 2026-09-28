@@ -31,8 +31,9 @@ REQUIRED_COLUMNS = [
     "valor_imovel", "valor_solicitado", "prazo_meses", "score_credito",
     "idade_cliente", "renda_mensal_declarada", "flag_cliente_recorrente",
     "consultor_id", "etapa_max_funil", "status_final", "tempo_analise_dias",
-    "data_assinatura_contrato", "taxa_juros_aa",
+    "data_assinatura_contrato",
 ]
+OPTIONAL_COLUMNS = ["taxa_juros_aa"]
 
 
 def _log(rows: list[dict], problem: str, column: str, count: int, action: str,
@@ -112,7 +113,12 @@ def clean(df_raw: pd.DataFrame, config: Mapping[str, object] | None = None) -> t
 
     df = df_raw.copy(deep=True)
     log: list[dict] = []
-    for column in REQUIRED_COLUMNS:
+    missing_optional = [column for column in OPTIONAL_COLUMNS if column not in df.columns]
+    for column in missing_optional:
+        df[column] = pd.Series(pd.NA, index=df.index, dtype="string")
+        _log(log, "coluna opcional ausente", column, len(df), "manter null; métricas dependentes indisponíveis",
+             "Campo não fornecido no arquivo de entrada.", "Não inferir coerência de taxa e contratação.")
+    for column in REQUIRED_COLUMNS + OPTIONAL_COLUMNS:
         if column in NUMERIC_COLUMNS + DATE_COLUMNS:
             df[column + "_raw"] = df[column].astype("string")
         value = df[column].astype("string").str.strip()
@@ -156,6 +162,8 @@ def clean(df_raw: pd.DataFrame, config: Mapping[str, object] | None = None) -> t
         df["flag_contratada"] != df["data_assinatura_contrato"].notna()
     ).astype(bool)
     df["flag_status_taxa_incoerente"] = (df["flag_contratada"] != df["taxa_juros_aa"].notna()).astype(bool)
+    if missing_optional:
+        df["flag_status_taxa_incoerente"] = pd.Series(pd.NA, index=df.index, dtype="boolean")
     df["flag_prazo_assinatura_divergente"] = (
         df["data_assinatura_contrato"].notna() & df["data_entrada"].notna()
         & df["tempo_analise_dias"].notna()

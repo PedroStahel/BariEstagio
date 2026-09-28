@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Relatório semanal do funil</title>
+  <style>
+    body {font: 16px/1.5 Arial, sans-serif; color:#183247; max-width:1100px; margin:2rem auto; padding:0 1rem}
+    h1,h2 {color:#164766} .meta {background:#eef5f9; padding:1rem; border-radius:8px}
+    .warning {background:#fff1cd; padding:1rem; border-left:5px solid #b47900; white-space:pre-wrap}
+    table {border-collapse:collapse; width:100%; margin-bottom:2rem; font-size:.91rem}
+    th,td {padding:.55rem; border:1px solid #d4e0e8; text-align:left; vertical-align:top}
+    th {background:#265c83; color:white} tr:nth-child(even) {background:#f5f9fc}
+    img {display:block; max-width:100%; height:auto; margin:1.5rem auto}
+    small {color:#536a78}
+  </style>
+</head>
+<body>
+  <h1>Relatório semanal do funil</h1>
+  <div class="meta">
+    {% for key, value in meta.items() if key != "Avisos" %}<div><strong>{{ key }}:</strong> {{ value }}</div>{% endfor %}
+  </div>
+  {% if meta["Avisos"] != "Nenhum" %}<h2>Avisos que precisam de atenção</h2><div class="warning">{{ meta["Avisos"] }}</div>{% endif %}
+  <p>Os valores em R$ representam crédito solicitado em propostas sem contratação registrada.
+  Eles não são receita nem prejuízo realizado. “Sem retorno” e “Desistiu” podem exigir confirmação
+  antes de serem tratados como perdas definitivas.</p>
+  {% for label, key in [("Resumo", "summary"), ("Onde está o valor sem contratação", "funnel"),
+                       ("Por canal", "channel"), ("Tendência de entrada", "trend"),
+                       ("Qualidade dos dados", "quality")] %}
+    <h2>{{ label }}</h2>
+    {% if key == "trend" %}<p>Taxa ingênua inclui todas as entradas. Taxa madura considera apenas
+    entradas com tempo de observação igual ou superior ao percentil 90 do prazo de análise observado.
+    A data de extração não foi fornecida; essa comparação é aproximada.</p>{% endif %}
+    {% if key == "channel" %}<p>Os limites são intervalos de confiança de 95% para cada canal; descrevem
+    a incerteza da taxa observada, não o efeito causal do canal.</p>{% endif %}
+    {% if tables[key] %}
+      <table><thead><tr>{% for column in tables[key][0].keys() %}<th>{{ column }}</th>{% endfor %}</tr></thead>
+      <tbody>{% for row in tables[key] %}<tr>{% for value in row.values() %}<td>{{ value }}</td>{% endfor %}</tr>{% endfor %}</tbody></table>
+    {% else %}<p>Sem dados disponíveis nesta seção.</p>{% endif %}
+    {% if key == "funnel" %}<img alt="Crédito solicitado sem contratação por etapa" src="data:image/png;base64,{{ figures.funnel }}">{% endif %}
+    {% if key == "trend" %}<img alt="Contratação por mês de entrada" src="data:image/png;base64,{{ figures.trend }}">{% endif %}
+  {% endfor %}
+  <small>Propostas com valores ausentes continuam na contagem quando possível; consulte a aba de qualidade.</small>
+</body></html>
