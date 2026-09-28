@@ -1,0 +1,33 @@
+# Segredos (nunca commitar)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Testes, cobertura e caches
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Dados gerados e logs
+data/processed/
+outputs/logs/
+
+# SO e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

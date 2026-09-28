@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+statsmodels
+matplotlib
+openpyxl
+jinja2
+pydantic
+pytest
+python-dotenv
+pdfplumber
