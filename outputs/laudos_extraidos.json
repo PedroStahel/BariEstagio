@@ -1,0 +1,1333 @@
+[
+  {
+    "documento": "laudo_01.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "apartamento",
+        "evidencia": "apartamento",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP",
+        "evidencia": "Endereço: Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP",
+        "confianca": "alta"
+      },
+      "area_privativa_m2": {
+        "value": 78.4,
+        "evidencia": "Área privativa: 78,40 m²",
+        "confianca": "alta"
+      },
+      "area_total_m2": {
+        "value": 102.1,
+        "evidencia": "área total: 102,10 m²",
+        "confianca": "alta"
+      },
+      "area_terreno_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_construida_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "ano_construcao": {
+        "value": 2014,
+        "evidencia": "Ano de construção: 2014",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 642000.0,
+        "evidencia": "R$ 642.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "184.772",
+        "evidencia": "Matrícula: 184.772",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Ônus: não foram identificados ônus na certidão analisada.",
+        "evidencia": "Ônus: não foram identificados ônus na certidão analisada.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": false,
+        "evidencia": "Ônus: não foram identificados ônus na certidão analisada.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-03-12",
+        "evidencia": "12/03/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Marina Albuquerque",
+        "evidencia": "Responsável técnico: Eng. Marina Albuquerque - CREA-SP 5061234567.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-SP 5061234567",
+        "evidencia": "CREA-SP 5061234567",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_02.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "casa",
+        "evidencia": "casa",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Av. Central, 900, bloco B, Belo Horizonte - MG",
+        "evidencia": "Localização do bem: Av. Central, 900, bloco B, Belo Horizonte - MG.",
+        "confianca": "alta"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": 250.0,
+        "evidencia": "lote de 250 m²",
+        "confianca": "alta"
+      },
+      "area_construida_m2": {
+        "value": 146.0,
+        "evidencia": "146,00 m2 de área construída",
+        "confianca": "alta"
+      },
+      "ano_construcao": {
+        "value": 2008,
+        "evidencia": "Construída em 2008",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 680000.0,
+        "evidencia": "R$ 680.000",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "onus": {
+        "value": "Certidão: sem gravames conhecidos.",
+        "evidencia": "Certidão: sem gravames conhecidos.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": false,
+        "evidencia": "Certidão: sem gravames conhecidos.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-03-18",
+        "evidencia": "18/03/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Carlos Henrique Moura",
+        "evidencia": "Avaliador: Carlos Henrique Moura, CAU A123456-7.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CAU A123456-7",
+        "evidencia": "CAU A123456-7",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_03.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "sala_comercial",
+        "evidencia": "sala comercial",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Em 22 de março de 2025 vistoriamos a sala comercial 503, Edifício Horizonte, Rua do Comércio, 77, Curitiba/PR",
+        "evidencia": "Em 22 de março de 2025 vistoriamos a sala comercial 503, Edifício Horizonte, Rua do Comércio, 77, Curitiba/PR.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_construida_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "ano_construcao": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "valor_avaliacao_brl": {
+        "value": 395500.0,
+        "evidencia": "R$ 395.500,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "77.201",
+        "evidencia": "Matrícula 77.201",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Consta alienação fiduciária em favor de instituição financeira; recomenda-se atualização da certidão.",
+        "evidencia": "Consta alienação fiduciária em favor de instituição financeira; recomenda-se atualização da certidão.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": true,
+        "evidencia": "Consta alienação fiduciária em favor de instituição financeira; recomenda-se atualização da certidão.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-03-22",
+        "evidencia": "22 de março de 2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Beatriz Nunes",
+        "evidencia": "Responsável: Arq. Beatriz Nunes (CAU A987654-3).",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CAU A987654-3",
+        "evidencia": "CAU A987654-3",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_04.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "terreno",
+        "evidencia": "terreno",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO",
+        "evidencia": "Endereço do imóvel: Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO",
+        "confianca": "alta"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": 360.0,
+        "evidencia": "Área do terreno: 360 m2",
+        "confianca": "alta"
+      },
+      "area_construida_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "ano_construcao": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "valor_avaliacao_brl": {
+        "value": 218000.0,
+        "evidencia": "R$ 218.000",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "102.334",
+        "evidencia": "Matrícula 102.334",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Ônus e restrições: nada informado no documento apresentado",
+        "evidencia": "Ônus e restrições: nada informado no documento apresentado",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "data_vistoria": {
+        "value": "2025-04-02",
+        "evidencia": "02/04/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Paulo Sérgio Reis",
+        "evidencia": "RT: Paulo Sérgio Reis, CREA 12345/D-GO",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA 12345/D-GO",
+        "evidencia": "CREA 12345/D-GO",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_05.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "imovel_rural",
+        "evidencia": "imóvel rural",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": 48000.0,
+        "evidencia": "Área do terreno: 4,8 ha",
+        "confianca": "alta"
+      },
+      "area_construida_m2": {
+        "value": 310.0,
+        "evidencia": "benfeitorias construídas: 310 m²",
+        "confianca": "alta"
+      },
+      "ano_construcao": {
+        "value": 1999,
+        "evidencia": "Ano das edificações: 1999",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 1275000.0,
+        "evidencia": "R$ 1.275.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "32.110",
+        "evidencia": "Matrícula 32.110",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Ônus: reserva legal registrada; não foi apontada hipoteca.",
+        "evidencia": "Ônus: reserva legal registrada; não foi apontada hipoteca.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": true,
+        "evidencia": "Ônus: reserva legal registrada; não foi apontada hipoteca.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-04-07",
+        "evidencia": "07/04/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "João A. Farias",
+        "evidencia": "Perito avaliador: João A. Farias, CREA-SP 5076543210.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-SP 5076543210",
+        "evidencia": "CREA-SP 5076543210",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_06.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "apartamento",
+        "evidencia": "Apartamento",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Apartamento situado à Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100",
+        "evidencia": "Apartamento situado à Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": 61.0,
+        "evidencia": "Área privativa 61m²",
+        "confianca": "alta"
+      },
+      "area_total_m2": {
+        "value": 84.0,
+        "evidencia": "área total 84m²",
+        "confianca": "alta"
+      },
+      "area_terreno_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_construida_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "ano_construcao": {
+        "value": 2018,
+        "evidencia": "2018 de construção",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 455000.0,
+        "evidencia": "R$ 455.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "9.876",
+        "evidencia": "Matrícula: 9.876",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Não consta informação sobre ônus.",
+        "evidencia": "Não consta informação sobre ônus.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "data_vistoria": {
+        "value": "2025-04-15",
+        "evidencia": "15/04/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Fernanda Lins",
+        "evidencia": "Responsável técnico: Fernanda Lins, CREA 18001/PE.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA 18001/PE",
+        "evidencia": "CREA 18001/PE",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_07.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "casa",
+        "evidencia": "Casa",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Casa geminada, Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS",
+        "evidencia": "Casa geminada, Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": 125.0,
+        "evidencia": "Terreno 125,00 m²",
+        "confianca": "alta"
+      },
+      "area_construida_m2": {
+        "value": 92.5,
+        "evidencia": "área edificada 92,50 m²",
+        "confianca": "alta"
+      },
+      "ano_construcao": {
+        "value": 2011,
+        "evidencia": "Ano de construção informado pelo proprietário: 2011",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 372000.0,
+        "evidencia": "R$ 372.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "66.504",
+        "evidencia": "Matrícula 66.504",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Há penhora averbada, conforme documento consultado em 20/04/2025.",
+        "evidencia": "Há penhora averbada, conforme documento consultado em 20/04/2025.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": true,
+        "evidencia": "Há penhora averbada, conforme documento consultado em 20/04/2025.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-04-20",
+        "evidencia": "20-04-2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Rafael Costa",
+        "evidencia": "Responsável: Eng. Rafael Costa, CREA-RS 222333.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-RS 222333",
+        "evidencia": "CREA-RS 222333",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_08.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "loja",
+        "evidencia": "loja",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Rua Sete de Setembro, 410, Salvador/BA",
+        "evidencia": "Endereço: Rua Sete de Setembro, 410, Salvador/BA",
+        "confianca": "alta"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_construida_m2": {
+        "value": 118.0,
+        "evidencia": "Área construída aproximada: 118 m²",
+        "confianca": "alta"
+      },
+      "ano_construcao": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "valor_avaliacao_brl": {
+        "value": 910000.0,
+        "evidencia": "R$ 910.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "onus": {
+        "value": "Ônus: não foi possível verificar por ausência de certidão.",
+        "evidencia": "Ônus: não foi possível verificar por ausência de certidão.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "data_vistoria": {
+        "value": "2025-04-29",
+        "evidencia": "29/04/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Luciana Prado",
+        "evidencia": "Avaliadora responsável: Luciana Prado - CNAI 12345.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CNAI 12345",
+        "evidencia": "CNAI 12345",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_09.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "casa",
+        "evidencia": "Casa",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Casa residencial na Alameda das Flores 88, Florianópolis/SC",
+        "evidencia": "Casa residencial na Alameda das Flores 88, Florianópolis/SC.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": 420.0,
+        "evidencia": "Área do lote 420,00 m²",
+        "confianca": "alta"
+      },
+      "area_construida_m2": {
+        "value": 198.0,
+        "evidencia": "área construída 198,00 m²",
+        "confianca": "alta"
+      },
+      "ano_construcao": {
+        "value": 2020,
+        "evidencia": "Construção: 2020",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 1080000.0,
+        "evidencia": "R$ 1.080.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "12.909",
+        "evidencia": "Matrícula 12.909",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "A certidão indica inexistência de ônus reais.",
+        "evidencia": "A certidão indica inexistência de ônus reais.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": false,
+        "evidencia": "A certidão indica inexistência de ônus reais.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-05-03",
+        "evidencia": "03/05/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Thiago Martins",
+        "evidencia": "Responsável técnico: Eng. Thiago Martins, CREA-SC 7654321.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-SC 7654321",
+        "evidencia": "CREA-SC 7654321",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_10.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "apartamento",
+        "evidencia": "apartamento",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407",
+        "evidencia": "Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": 96.3,
+        "evidencia": "Área privativa 96,3 m²",
+        "confianca": "alta"
+      },
+      "area_total_m2": {
+        "value": 127.6,
+        "evidencia": "Área total 127,6 m²",
+        "confianca": "alta"
+      },
+      "area_terreno_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_construida_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "ano_construcao": {
+        "value": 2016,
+        "evidencia": "Ano de conclusão 2016",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 735000.0,
+        "evidencia": "R$ 735.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "201.443",
+        "evidencia": "matrícula 201.443",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Gravames: alienação fiduciária mencionada na matrícula.",
+        "evidencia": "Gravames: alienação fiduciária mencionada na matrícula.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": true,
+        "evidencia": "Gravames: alienação fiduciária mencionada na matrícula.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-05-09",
+        "evidencia": "09/05/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Denise Carvalho",
+        "evidencia": "Perita: Denise Carvalho, CREA-DF 112233.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-DF 112233",
+        "evidencia": "CREA-DF 112233",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_11.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "terreno",
+        "evidencia": "Terreno",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Terreno para incorporação localizado na Rua Projetada 4, s/n, Santos, SP",
+        "evidencia": "Terreno para incorporação localizado na Rua Projetada 4, s/n, Santos, SP.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": 1020.0,
+        "evidencia": "Superfície: 1.020 m2",
+        "confianca": "alta"
+      },
+      "area_construida_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "ano_construcao": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "valor_avaliacao_brl": {
+        "value": 2450000.0,
+        "evidencia": "R$ 2.450.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "88.710",
+        "evidencia": "Matrícula 88.710",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Ônus reais não informados.",
+        "evidencia": "Ônus reais não informados.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "data_vistoria": {
+        "value": "2025-05-16",
+        "evidencia": "16/05/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Marcos Vieira",
+        "evidencia": "Elaborado por: Marcos Vieira, Eng. Civil, CREA-SP 5099988776.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-SP 5099988776",
+        "evidencia": "CREA-SP 5099988776",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_12.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "casa",
+        "evidencia": "casa",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Rua das Bromélias, 500, Lago Sul, Brasília - DF",
+        "evidencia": "Local: Rua das Bromélias, 500, Lago Sul, Brasília - DF",
+        "confianca": "alta"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": 600.0,
+        "evidencia": "terreno com 600 m²",
+        "confianca": "alta"
+      },
+      "area_construida_m2": {
+        "value": 285.0,
+        "evidencia": "Área construída de 285 m²",
+        "confianca": "alta"
+      },
+      "ano_construcao": {
+        "value": 2012,
+        "evidencia": "Ano informado: 2012",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 2180000.0,
+        "evidencia": "R$ 2.180.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "54.122",
+        "evidencia": "Matrícula 54.122",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Ônus: servidão de passagem registrada.",
+        "evidencia": "Ônus: servidão de passagem registrada.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": true,
+        "evidencia": "Ônus: servidão de passagem registrada.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-05-23",
+        "evidencia": "23/05/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Andréa Melo",
+        "evidencia": "Responsável pelo trabalho: Arq. Andréa Melo, CAU A445566-1.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CAU A445566-1",
+        "evidencia": "CAU A445566-1",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_13.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "apartamento",
+        "evidencia": "Apartamento",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ",
+        "evidencia": "Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": 155.0,
+        "evidencia": "Área total: 155,00m²",
+        "confianca": "alta"
+      },
+      "area_terreno_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_construida_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "ano_construcao": {
+        "value": 1987,
+        "evidencia": "Ano de construção: 1987",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 1320000.0,
+        "evidencia": "R$ 1.320.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "145.230",
+        "evidencia": "Matrícula 145.230",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Ônus: penhora cancelada, conforme averbação; documento não informa data do cancelamento.",
+        "evidencia": "Ônus: penhora cancelada, conforme averbação; documento não informa data do cancelamento.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "data_vistoria": {
+        "value": "2025-05-30",
+        "evidencia": "30/05/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Eduardo Sampaio",
+        "evidencia": "Avaliador: Eduardo Sampaio, CNAI 67890.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CNAI 67890",
+        "evidencia": "CNAI 67890",
+        "confianca": "alta"
+      },
+      "avisos": [
+        "Penhora cancelada sem data ou certidão atual; existência atual de ônus indeterminada."
+      ]
+    }
+  },
+  {
+    "documento": "laudo_14.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "galpao",
+        "evidencia": "galpão",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Rodovia BR-116, km 12, Betim/MG",
+        "evidencia": "Endereço: Rodovia BR-116, km 12, Betim/MG",
+        "confianca": "alta"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": 3000.0,
+        "evidencia": "terreno: 3.000 m²",
+        "confianca": "alta"
+      },
+      "area_construida_m2": {
+        "value": 1450.0,
+        "evidencia": "Área coberta: 1.450 m²",
+        "confianca": "alta"
+      },
+      "ano_construcao": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "valor_avaliacao_brl": {
+        "value": 3900000.0,
+        "evidencia": "R$ 3.900.000",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "70.008",
+        "evidencia": "Matrícula: 70.008",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Não há menção a ônus.",
+        "evidencia": "Não há menção a ônus.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "data_vistoria": {
+        "value": "2025-06-05",
+        "evidencia": "05/06/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Sérgio Tavares",
+        "evidencia": "Responsável: Sérgio Tavares, CREA-MG 998877.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-MG 998877",
+        "evidencia": "CREA-MG 998877",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_15.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "casa",
+        "evidencia": "casa",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Imóvel residencial: casa, Rua Monte Verde, 19, Curitiba-PR",
+        "evidencia": "Imóvel residencial: casa, Rua Monte Verde, 19, Curitiba-PR.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": 200.0,
+        "evidencia": "Área do terreno 200 m²",
+        "confianca": "alta"
+      },
+      "area_construida_m2": {
+        "value": 135.0,
+        "evidencia": "área construída 135 m²",
+        "confianca": "alta"
+      },
+      "ano_construcao": {
+        "value": 2003,
+        "evidencia": "Ano 2003",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 590000.0,
+        "evidencia": "R$ 590.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "39.240",
+        "evidencia": "Matrícula 39.240",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "A certidão consultada informa hipoteca ativa.",
+        "evidencia": "A certidão consultada informa hipoteca ativa.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": true,
+        "evidencia": "A certidão consultada informa hipoteca ativa.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-06-12",
+        "evidencia": "12/06/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Patrícia Gomes",
+        "evidencia": "Responsável técnico: Patrícia Gomes, Eng. Civil, CREA-PR 123123.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-PR 123123",
+        "evidencia": "CREA-PR 123123",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_16.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "unidade_comercial",
+        "evidencia": "Unidade comercial",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Unidade comercial 14, Rua do Sol, 250, Campinas/SP",
+        "evidencia": "Unidade comercial 14, Rua do Sol, 250, Campinas/SP.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": 42.0,
+        "evidencia": "Área privativa: 42,00 m²",
+        "confianca": "alta"
+      },
+      "area_total_m2": {
+        "value": 67.0,
+        "evidencia": "Área total: 67,00m²",
+        "confianca": "alta"
+      },
+      "area_terreno_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_construida_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "ano_construcao": {
+        "value": 2010,
+        "evidencia": "Construído em 2010",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 288000.0,
+        "evidencia": "R$ 288.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "101.010",
+        "evidencia": "Matrícula 101.010",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Ônus: sem informação.",
+        "evidencia": "Ônus: sem informação.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "data_vistoria": {
+        "value": "2025-06-19",
+        "evidencia": "19/06/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Guilherme Rocha",
+        "evidencia": "Responsável técnico: Guilherme Rocha, CREA-SP 501010.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-SP 501010",
+        "evidencia": "CREA-SP 501010",
+        "confianca": "alta"
+      },
+      "avisos": []
+    }
+  },
+  {
+    "documento": "laudo_17.txt",
+    "status": "ok",
+    "erro": null,
+    "campos": {
+      "tipo_imovel": {
+        "value": "apartamento",
+        "evidencia": "apartamento",
+        "confianca": "alta"
+      },
+      "endereco": {
+        "value": "Objeto: apartamento residencial na Rua Harmonia, 44, Vila Madalena, São Paulo/SP",
+        "evidencia": "Objeto: apartamento residencial na Rua Harmonia, 44, Vila Madalena, São Paulo/SP.",
+        "confianca": "baixa"
+      },
+      "area_privativa_m2": {
+        "value": 70.0,
+        "evidencia": "Área privativa 70 m²",
+        "confianca": "alta"
+      },
+      "area_total_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_terreno_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "area_construida_m2": {
+        "value": null,
+        "evidencia": null,
+        "confianca": null
+      },
+      "ano_construcao": {
+        "value": 2015,
+        "evidencia": "Ano de construção: 2015",
+        "confianca": "alta"
+      },
+      "valor_avaliacao_brl": {
+        "value": 610000.0,
+        "evidencia": "R$ 610.000,00",
+        "confianca": "alta"
+      },
+      "matricula": {
+        "value": "176.543",
+        "evidencia": "Matrícula 176.543",
+        "confianca": "alta"
+      },
+      "onus": {
+        "value": "Ônus: não há ônus, segundo declaração do proprietário; certidão não anexada.",
+        "evidencia": "Ônus: não há ônus, segundo declaração do proprietário; certidão não anexada.",
+        "confianca": "alta"
+      },
+      "tem_onus": {
+        "value": false,
+        "evidencia": "Ônus: não há ônus, segundo declaração do proprietário; certidão não anexada.",
+        "confianca": "alta"
+      },
+      "data_vistoria": {
+        "value": "2025-06-25",
+        "evidencia": "25/06/2025",
+        "confianca": "alta"
+      },
+      "responsavel_tecnico": {
+        "value": "Marina Albuquerque",
+        "evidencia": "Responsável técnico: Marina Albuquerque, CREA-SP 5061234567.",
+        "confianca": "media"
+      },
+      "registro_profissional": {
+        "value": "CREA-SP 5061234567",
+        "evidencia": "CREA-SP 5061234567",
+        "confianca": "alta"
+      },
+      "avisos": [
+        "Contradição em area_total_m2: valores explícitos [92.0, 95.0]; valor nulo para revisão.",
+        "Contradição em area_total_m2: [92.0, 95.0]; valor nulo."
+      ]
+    }
+  }
+]
