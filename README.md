@@ -29,7 +29,6 @@ Projeto de diagnóstico do funil de crédito com garantia de imóvel, relatório
 - `tools/scan_files.py` — varredura dos materiais de entrada.
 - `tools/profile_csv.py` — perfil do CSV bruto.
 - `tests/` — testes automatizados.
-- `tests/gold/gold_laudos.csv` — template de gabarito; valores preenchidos somente pelo candidato.
 - `data/processed/` — dados intermediários locais.
 - `outputs/diagnostico.md` — diagnóstico detalhado da Parte 1.
 - `outputs/figures/` — gráficos gerados.
